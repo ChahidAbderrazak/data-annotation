@@ -1,0 +1,13 @@
+PyQt5
+matplotlib
+numpy
+opencv-python
+scikit-image
+glob2
+nibabel
+sklearn
+seaborn
+napari[pyqt5]
+Pillow
+pynrrd
+progressbar2

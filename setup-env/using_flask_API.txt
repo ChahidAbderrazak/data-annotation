@@ -1,0 +1,22 @@
+1)you have to have a python in your device (higly recomend to us VS code python/ vertual env concept)
+
+2) install all the depandancy:
+
+pip install import pyrebase4
+pip install flask 
+
+************************************************
+git clone https://github.com/nutonomy/nuscenes-devkit.git
+conda create --name nuscenes python=3.9.12
+conda activate nuscenes
+*************************************************
+
+3)change the port in flask_API File / use the defult  port=105
+
+4)run the file and use the following urls
+
+function:                                    URL                                                                         output     
+download specific node             '/download/node_name/'                                       --------------
+get_routes                               '/get_routes/node_name/                                        inception_dec  
+get_sample                              '/get_sample/node_name /'                        {'DRONE_CAMERA': 'M3-2022-10-12-12h-41min-51sec_s1_f0'},
+get_data                                   '/get_data/node_name/token'                     {'sensor':file_paths,'sensor2':file_paths}
